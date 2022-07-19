@@ -129,13 +129,6 @@ ul {
   margin-left: 0;
 }
 
-.menu-contacts__icon {
-  margin-right: 10px;
-  fill: var(--paragraph-color);
-  cursor: pointer;
-  transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .menu-contacts__link {
   display: flex;
   align-items: center;
@@ -155,6 +148,13 @@ ul {
 .menu-contacts__link:hover,
 .menu-contacts__link:focus {
   color: var(--accent-color);
+}
+
+.menu-contacts__icon {
+  margin-right: 10px;
+  fill: var(--paragraph-color);
+  cursor: pointer;
+  transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 h1,
@@ -555,10 +555,6 @@ section.description {
   text-align: center;
 }
 
-.logo-footer__logo {
-  color: var(--secondory-color);
-}
-
 .social-network {
   display: flex;
   margin: 0 0 30px;
@@ -676,6 +672,10 @@ section.description {
   padding-bottom: calc(60px - 94px);
 }
 
+.logo-footer__logo {
+  color: var(--secondory-color);
+}
+
 .footer-contacts {
   font-style: normal;
   margin: 20px 0 0 0;
@@ -684,6 +684,10 @@ section.description {
 .footer-contacts__list {
   list-style: none;
   padding-left: 0;
+}
+
+.footer-contacts__item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-address {
@@ -697,15 +701,18 @@ section.description {
   text-decoration: none;
 }
 
-.footer-contacts__item:not(:last-child) {
-  margin-bottom: 9px;
-}
-
 .footer-social-network {
   display: inline-block;
   vertical-align: top;
   margin-left: 70px;
   justify-content: center;
+}
+
+.footer-social-network__name {
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--secondory-color);
+  transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-network__list {
@@ -735,13 +742,6 @@ section.description {
   transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-network__name {
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: var(--secondory-color);
-  transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .footer-social-network__link:hover,
 .footer-social-network__link:focus {
   background-color: #2196f3;
@@ -769,7 +769,6 @@ section.description {
   display: flex;
   align-items: center;
 }
-
 
 .footer-form__field input {
   width: 358px;
@@ -812,7 +811,6 @@ section.description {
 .footer-email:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
 
 .menu-portfolio {
   display: flex;
