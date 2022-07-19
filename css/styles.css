@@ -708,11 +708,11 @@ section.description {
   justify-content: center;
 }
 
-.footer-social-network-list {
+.footer-social-network__list {
   display: flex;
 }
 
-.footer-social-network-icons {
+.footer-social-network__item {
   display: inline-block;
   list-style: none;
   fill: var(--paragraph-color);
@@ -724,7 +724,7 @@ section.description {
   padding: 0;
 }
 
-.footer-social-network-link {
+.footer-social-network__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -735,20 +735,20 @@ section.description {
   transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-network-name {
+.footer-social-network__name {
   font-weight: 700;
   margin-bottom: 20px;
   color: var(--secondory-color);
   transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-network-link:hover,
-.footer-social-network-link:focus {
+.footer-social-network__link:hover,
+.footer-social-network__link:focus {
   background-color: #2196f3;
 }
 
-.footer-social-network-link:hover svg,
-.footer-social-network-link:focus svg {
+.footer-social-network__link:hover svg,
+.footer-social-network__link:focus svg {
   fill: var(--secondory-color);
 }
 
@@ -757,7 +757,7 @@ section.description {
   margin-left: auto;
 }
 
-.form-footer-name {
+.footer-form__name {
   font-weight: 700;
   line-height: 16px;
   padding-top: 0;
@@ -765,13 +765,13 @@ section.description {
   color: var(--secondory-color);
 }
 
-.footer-form-field {
+.footer-form__field {
   display: flex;
   align-items: center;
 }
 
 
-.footer-form-field input {
+.footer-form__field input {
   width: 358px;
   height: 50px;
   background-color: var(--section-background-color);
@@ -782,7 +782,7 @@ section.description {
   color: #ffffff;
 }
 
-.footer-form-field input::placeholder {
+.footer-form__field input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -803,7 +803,7 @@ section.description {
   cursor: pointer;
 }
 
-.footer-email-send {
+.footer-email__icon {
   fill: var(--secondory-color);
   margin-left: 10px;
   transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
