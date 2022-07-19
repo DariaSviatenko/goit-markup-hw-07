@@ -65,7 +65,7 @@ ul {
   margin-right: 0;
 }
 
-.highlight-black {
+.logo__header {
   color: var(--primary-color);
 }
 
@@ -99,7 +99,7 @@ ul {
   color: var(--accent-color);
 }
 
-.menu__link.current:after {
+.menu__link.menu__link--current:after {
   position: absolute;
   content: " ";
   background: #2196f3;
@@ -110,7 +110,7 @@ ul {
   left: 0;
 }
 
-.current {
+.menu__link--current {
   color: var(--accent-color);
 }
 
