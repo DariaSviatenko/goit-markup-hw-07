@@ -419,8 +419,6 @@ p {
   background-color: #188ce8;
 }
 
-
-
 .benefits-list {
   display: flex;
   gap: 30px;
@@ -428,7 +426,7 @@ p {
   padding: 0;
 }
 
-.benefits-list-item {
+.benefits-list__item {
   list-style: none;
   padding-left: 0;
   margin: 0;
@@ -440,13 +438,13 @@ p {
   border-radius: 4px;
 }
 
-.benefits-list-item-icon {
+.benefits-icons__image {
   width: 70px;
   height: 70px;
   margin: 25px 100px;
 }
 
-.benefits-title {
+.benefits-icons__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -456,7 +454,7 @@ p {
   margin-bottom: 10px;
 }
 
-.benefits-description {
+.benefits-icons__description {
   line-height: 1.71;
   color: var(--paragraph-color);
 }
@@ -481,11 +479,11 @@ section.description {
   padding: 0;
 }
 
-.subtitle-item-occupation {
+.subtitle-list__item {
   list-style: none;
 }
 
-.subtitle-item-occupation:not(:last-child) {
+.subtitle-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -498,7 +496,7 @@ section.description {
   height: 100%;
 }
 
-.subtitle-item-occupation-label {
+.occupation-label {
   color: #ffffff;
   font-weight: 700;
   background: rgba(47, 48, 58, 0.8);
@@ -510,7 +508,7 @@ section.description {
   padding: 27px;
 }
 
-.description-photo {
+.occupation-photo {
   display: block;
   min-width: 100%;
   height: auto;
@@ -557,17 +555,17 @@ section.description {
   text-align: center;
 }
 
-.highlight-white {
+.logo-footer__logo {
   color: var(--secondory-color);
 }
 
-.social-network-list {
+.social-network {
   display: flex;
   margin: 0 0 30px;
   justify-content: center;
 }
 
-.social-network-icons {
+.social-network__item {
   display: inline-block;
   list-style: none;
   fill: var(--paragraph-color);
@@ -579,7 +577,7 @@ section.description {
   padding: 0;
 }
 
-.social-network-link {
+.social-network__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -589,28 +587,28 @@ section.description {
   transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-network-link .social-network {
+.social-network__link .social-network__icon {
   fill: #afb1b8;
 }
 
-.social-network {
+.social-network__icon {
   fill: #ffffff;
   width: 20px;
   height: 20px;
   transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-network-icons:last-child {
+.social-network__item:last-child {
   margin-right: 0px;
 }
 
-.social-network-link:hover,
-.social-network-link:focus {
+.social-network__link:hover,
+.social-network__link:focus {
   background-color: #2196f3;
 }
 
-.social-network-link:hover svg,
-.social-network-link:focus svg {
+.social-network__link:hover svg,
+.social-network__link:focus svg {
   fill: var(--secondory-color);
 }
 
@@ -683,7 +681,7 @@ section.description {
   margin: 20px 0 0 0;
 }
 
-.footer-contacts-list {
+.footer-contacts__list {
   list-style: none;
   padding-left: 0;
 }
@@ -693,13 +691,13 @@ section.description {
   color: var(--secondory-color);
 }
 
-.footer-contact-link {
+.footer-contact__link {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
-.footer-contacts-item:not(:last-child) {
+.footer-contacts__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
