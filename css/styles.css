@@ -823,7 +823,7 @@ section.description {
   margin-bottom: 50px;
 }
 
-.menu-portfolio-button {
+.menu-portfolio__item {
   list-style: none;
   flex-direction: column;
 }
