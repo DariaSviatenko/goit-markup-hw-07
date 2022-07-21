@@ -1,5 +1,5 @@
 .logo {
-    font-family: "Raleway", sans-serif;
+    font-family: $font-secondary;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -8,15 +8,18 @@
     text-decoration: none;
     margin-right: 93px;
   
-    &_header {
+    &__header {
       color: $primary-color;
     }
-  }
-  
-  .logo-footer {
-    margin-right: 0;
-  
-    &__logo {
-      color: $secondory-color;
+
+    &-footer {
+      margin-right: 0;
+    
+      &__logo {
+        color: $secondory-color;
+      }
     }
+
   }
+  
+  

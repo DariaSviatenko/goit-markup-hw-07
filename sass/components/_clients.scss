@@ -16,12 +16,10 @@
     padding-bottom: 0;
     width: 170px;
     height: 92px;
-    justify-content: center;
   }
   
   .clients-link {
     @include centeredFlex(flex);
-    justify-content: center;
     border: 1px solid $color;
     border-radius: $border-radius;
     width: 100%;

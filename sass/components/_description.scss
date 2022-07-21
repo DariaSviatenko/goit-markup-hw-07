@@ -29,7 +29,6 @@ section.description {
   .label {
     @include centeredFlex(flex);
     position: relative;
-    justify-content: center;
     width: 100%;
     height: 100%;
   }

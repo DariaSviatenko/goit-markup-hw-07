@@ -55,11 +55,13 @@
     height: 100%;
     text-align: left;
     transition: $transition-opacity;
+
+    &.is-hidden {
+      opacity: 0;
+      pointer-events: none;
+      visibility: hidden;
+      transition: $transition-opacity, $transition-visibility;
+    }
   }
   
-  .backdrop.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
-    transition: $transition-opacity, $transition-visibility;
-  }
+  
