@@ -28,7 +28,7 @@
 }
 
 .social-network {
-  @include centeredFlex($type);
+  @include centeredFlex(flex);
   margin: 0 0 30px;
 
   &__item {
